@@ -1,0 +1,17 @@
+/* colors */
+:root {
+    --lightblue: rgb(66, 188, 209);
+    --darkblue: rgb(0, 88, 171);
+    --black: rgb(10, 10, 10);
+    --white: rgb(240, 240, 240);
+    --blue: rgb(36, 133, 163);
+}
+
+/* fonts */
+h1, h2, h3 {
+  font-family: "Righteous", sans-serif;
+}
+
+p, a {
+  font-family: "Nunito", sans-serif;
+}
