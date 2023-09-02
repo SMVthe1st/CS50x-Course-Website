@@ -1,0 +1,68 @@
+/* setup */
+body {
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  margin: 0%;
+}
+
+/* carousel container */
+#carousel {
+  width: 100%;
+  position: relative;
+  top: 0vh;
+}
+
+/* slides */
+.slide {
+  width: 100%;
+  position: absolute;
+  transition: all 0.8s;
+}
+
+.slide img {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  background-color: white;
+}
+
+.slide p {
+  color: var(--white);
+  position: absolute;
+  bottom: 5vh;
+  left: 10vw;
+  text-align: center;
+  width: 80vw;
+  background-color: rgba(20, 20, 20, 0.6);
+  padding: 1%;
+  font-family: "Nunito", sans-serif;
+  border-radius: 2%;
+}
+
+/* arrow buttons */
+.btn {
+  position: absolute;
+  background: rgba(20, 20, 20, 0.6);
+  border: none;
+  border-radius: 50%;
+  padding: 1%;
+  color: var(--white);
+  transition: 0.5s ease;
+  font-size: 5vw;
+  z-index: 60;
+  top: 50vh;
+}
+
+.btn:hover {
+  transform: scale(1.3);
+  cursor: pointer;
+}
+
+#left {
+  left: 10vw;
+}
+
+#right {
+  right: 10vw;
+}
