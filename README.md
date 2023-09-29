@@ -1,4 +1,4 @@
-I made this website for a Harvard course and don't have the work ethic to finish it, tbh. I will at some point, though.
+I made this website for a Harvard course and don't have the work ethic to finish it, tbh. I will at some point, though. Perhaps.
 <br>But this is something for now, at least, I guess. I mean, it fits the criteria =P
 
 <em><br>"We’ll leave its design largely up to you, subject only to the following requirements:
